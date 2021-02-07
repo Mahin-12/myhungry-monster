@@ -1,0 +1,25 @@
+.searchbtn{
+    float: center;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+
+}
+#menufoods{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+.foods{
+    border: 1px solid darkgray;
+    border-radius:20px ;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+}
+.food-meal{
+    font-size: 40px;
+    color: brown;
+}
